@@ -1,0 +1,27 @@
+.auth-container {
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 0 2rem rgb(0 0 0 / 8%);
+    border-radius: 1rem;
+}
+
+.mui-fixed{border-bottom: 1px dashed rgba(145, 158, 171, 0.24);}
+
+.text-center{text-align: center;}
+.text-center img{display: inline-block;}
+.mb-5{margin-bottom: 50px;}
+.mb-3{margin-bottom: 30px;}
+
+.custom-btn-group{display: flex;}
+.custom-btn-group.text-center{justify-content: center;}
+.custom-btn-group>* + *{margin-left: 10px;}
+.css-claira{margin-right: 8px;}
+
+@media (min-width: 1200px)
+{
+    .MuiContainer-root{max-width: 1520px;}
+}
+
+.auth-body{
+    background-color: #161d31;
+}
